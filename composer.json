@@ -1,0 +1,28 @@
+{
+  "name": "mothership-ec/cog-mothership-update",
+  "description": "Cog module for updating Mothership installations",
+  "keywords": ["composer", "mothership", "up", "cog"],
+  "homepage": "http://mothership-ec",
+  "license": "GPL-3.0+",
+  "authors": [
+	{
+	  "name" : "The Mothership Development Team",
+	  "email": "dev@mothership.ec"
+	}
+  ],
+  "support": {
+	"wiki"  : "http://wiki.mothership.ec/Update_module",
+	"issues": "http://github.com/mothership-ec/cog-mothership-update/issues"
+  },
+  "autoload": {
+	"psr-4": {
+	  "Message\\Mothership\\Update\\"      : "src"
+	}
+  },
+  "require": {
+	"php": ">=5.4.0",
+
+	"mothership-ec/cog" : "~4.2",
+	"mothership-ec/up"  : "1.0.0-beta"
+  }
+}
